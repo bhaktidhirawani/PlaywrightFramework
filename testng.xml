@@ -1,0 +1,6 @@
+<suite name="UI and API Tests">
+    <suite-files>
+        <suite-file path="api-testng.xml" />
+        <suite-file path="ui-testng.xml" />
+    </suite-files>
+</suite>

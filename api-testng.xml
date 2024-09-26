@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E-API" parallel="methods">
+    <test name="API Tests">
+        <groups>
+            <run>
+                <include name = "e2e" />
+                <include name="endpoint" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.api.tests.WorkflowTest"></class>
+            <class name="com.api.tests.LoginTests"></class>
+            <class name="com.api.tests.UserTests"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+

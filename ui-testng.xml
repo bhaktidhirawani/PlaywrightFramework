@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E-UI" parallel="methods">
+    <test name="UI Tests - Firefox">
+        <parameter name="browserName" value = "FIREFOX"/>
+        <classes>
+            <class name="com.ui.test.LinkTest"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+
